@@ -8,6 +8,6 @@ public class AutomovelTest{
 		gol.setCor("Vermelho");
 		gol.setAno(2000);
 		gol.ligarMotor();
-		System.out.println(gol.getModelo() + " ligado? " + gol.isEstadoMotor());
+		System.out.printf("Modelo: %s%nligado? %s%n",gol.getModelo(),  gol.isEstadoMotor());
 	}
 }
