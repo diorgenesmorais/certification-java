@@ -1,7 +1,7 @@
 package com.dms.example;
 
 /**
- * Class (@code Employee) representa um empregado.
+ * Class {@code Employee} representa um empregado.
  *
  * @autor Diorgenes Morais
  *
