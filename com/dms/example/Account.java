@@ -21,6 +21,12 @@ public class Account{
 			this.balance += depositAmount;
 	}
 
+	public void withdraw(double value){
+		if(value > this.balance)
+			throw new RuntimeException("Withdrawal amount exceeded account balance");
+		this.balance -= value;
+	}
+
 	public double getBalance(){
 		return balance;
 	}
