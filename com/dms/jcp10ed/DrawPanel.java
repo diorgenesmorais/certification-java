@@ -11,6 +11,8 @@ import javax.swing.JPanel;
  * @version 1.0.0
  */
 public class DrawPanel extends JPanel {
+	private static final long serialVersionUID = -3980870052507436443L;
+
 	// desenha um X a partir dos cantos do painel	
 	public void paintComponent(Graphics g){
 		// para assegurar que o painel é exibido corretamente
